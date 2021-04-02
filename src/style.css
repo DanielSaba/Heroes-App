@@ -1,0 +1,20 @@
+.container-login{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.container h1{
+    color:crimson;
+}
+
+.container-login .container__div{
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color:cornflowerblue;
+    filter:alpha(opacity=60); 
+    opacity:.7;
+    border-radius: 20px;
+}

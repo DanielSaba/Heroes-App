@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../auth/AuthContext';
 import { types } from '../../types/types';
+import '../../style.css';
 
 export const LoginScreen = ({ history }) => {
 
@@ -13,7 +14,7 @@ export const LoginScreen = ({ history }) => {
         dispatch({
             type: types.login,
             payload: {
-                name: 'Fernando'
+                name: 'Dasaba'
             }
         });
 
@@ -22,17 +23,19 @@ export const LoginScreen = ({ history }) => {
     }
 
     return (
-        <div className="container mt-5">
-            <h1>Login</h1>
-            <hr />
-
-            <button
-                className="btn btn-primary"
-                onClick={ handleLogin }
-            >
-                Login
-            </button>
-
+        <div className="container-login">
+            <div className="container__div">
+                <h1>Login</h1>
+                
+                <button
+                    className="btn btn-success"
+                    onClick={ handleLogin }
+                >
+                    Login
+                </button>
+            </div>
+            
+            
         </div>
     )
 }
