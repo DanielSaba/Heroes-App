@@ -1,3 +1,3 @@
 
-https://git.heroku.com/app-dasaba.git
+https://app-dasaba.herokuapp.com
 
