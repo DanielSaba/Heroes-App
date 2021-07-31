@@ -14,3 +14,14 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 app.listen(port);
+
+/*
+
+  ///CONFIGURACION BUILD///
+
+    "dev": "react-scripts start",
+    "start": "node server.js", 
+    "build": "react-scripts build",
+    "test": "react-scripts test --env = jsdom ",
+    " eject " :" react-scripts"
+*/
