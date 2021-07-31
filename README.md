@@ -1,4 +1,3 @@
-# HeroApp
 
-Recuerden ejecutar en comando ```npm install``` para reconstruir los módulos de Node.
+https://git.heroku.com/app-dasaba.git
 
